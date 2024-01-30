@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdio.h>
+void main()
+{
+    FILE*fp;
+    char set[50];
+    fp=fopen("file.text","w");
+    if (fp == NULL){
+        printf("error!");
+        exit(1);
+    }
+    fscanf("enter a sentence:\n");
+    fclose(fp); 
+}
